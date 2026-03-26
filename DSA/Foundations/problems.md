@@ -1,6 +1,6 @@
 # Foundation-Based Problems
 
-## 🔹 Time Complexity (Analysis Practice)
+## 🔹 Basic Problems for Complexity Analysis
 
 Focus: understanding loops and optimization
 
