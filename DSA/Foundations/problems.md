@@ -4,9 +4,9 @@
 
 Focus: understanding loops and optimization
 
-* 1. Two Sum
-* 217. Contains Duplicate
-* 53. Maximum Subarray
+* Two Sum
+* Contains Duplicate
+* Maximum Subarray
 
 ---
 
@@ -14,8 +14,8 @@ Focus: understanding loops and optimization
 
 Focus: analyzing behavior
 
-* 35. Search Insert Position
-* 704. Binary Search
+* Search Insert Position
+* Binary Search
 
 ---
 
@@ -23,9 +23,9 @@ Focus: analyzing behavior
 
 Focus: auxiliary space optimization
 
-* 283. Move Zeroes
-* 238. Product of Array Except Self
-* 242. Valid Anagram
+* Move Zeroes
+* Product of Array Except Self
+* Valid Anagram
 
 ---
 
@@ -33,9 +33,9 @@ Focus: auxiliary space optimization
 
 Focus: stack/queue operations over time
 
-* 155. Min Stack
-* 232. Implement Queue using Stacks
-* 622. Design Circular Queue
+* Min Stack
+* Implement Queue using Stacks
+* Design Circular Queue
 
 ---
 
@@ -43,9 +43,9 @@ Focus: stack/queue operations over time
 
 Focus: recursion depth and breakdown
 
-* 21. Merge Two Sorted Lists
-* 104. Max Depth of Binary Tree
-* 50. Pow(x, n)
+* Merge Two Sorted Lists
+* Max Depth of Binary Tree
+* Pow(x, n)
 
 ---
 
@@ -53,5 +53,5 @@ Focus: recursion depth and breakdown
 
 Focus: recursive splitting
 
-* 912. Sort an Array (Merge Sort)
-* 169. Majority Element
+* Sort an Array (Merge Sort)
+* Majority Element
