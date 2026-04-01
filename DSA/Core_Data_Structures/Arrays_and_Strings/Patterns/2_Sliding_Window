@@ -1,0 +1,126 @@
+# Sliding Window
+
+## 📌 Definition
+
+Sliding Window is a technique where we maintain a subset (window) of elements and move it across the array/string to avoid recomputing values.
+
+Reduces complexity from O(n²) → O(n)
+
+---
+
+## 🔹 Core Idea
+
+* Expand window → include new element
+* Shrink window → remove old element
+* Maintain condition
+
+---
+
+## 🔹 Types of Sliding Window
+
+---
+
+### 1. Fixed Size Window
+
+Window size = constant (k)
+
+#### Pattern:
+
+```python id="2u4r9k"
+window_sum = 0
+k = 3
+
+for i in range(len(arr)):
+    window_sum += arr[i]
+
+    if i >= k:
+        window_sum -= arr[i-k]
+```
+
+#### Use When:
+
+* Subarray of size k
+* Max/Min sum of size k
+
+---
+
+### 2. Variable Size Window
+
+Window size changes based on condition
+
+#### Pattern:
+
+```python id="1w6l0x"
+left = 0
+
+for right in range(len(arr)):
+    # expand
+
+    while condition:
+        # shrink
+        left += 1
+```
+
+#### Use When:
+
+* Longest substring
+* Smallest subarray
+* Condition-based window
+
+---
+
+## 🔹 Example Problems
+
+### Fixed Window Example
+
+👉 Maximum Average Subarray I (643)
+
+---
+
+### Variable Window Examples
+
+👉 Longest Substring Without Repeating Characters (3)
+👉 Minimum Size Subarray Sum (209)
+
+---
+
+## 🔹 Key Logic
+
+* Add when expanding
+* Remove when shrinking
+* Maintain condition efficiently
+
+---
+
+## 🔹 Time Complexity
+
+* O(n) (each element enters and leaves once)
+
+---
+
+## ⚠️ Mistakes I Made
+
+* Forgot to shrink window
+* Used nested loops → O(n²)
+* Didn’t update result correctly
+* Confused when to shrink
+
+---
+
+## 🎯 Key Insight
+
+Sliding window works when:
+
+* Subarray/substring
+* Continuous elements
+* Need optimization from brute force
+
+---
+
+## 🔹 Practice Problems
+
+* Maximum Average Subarray I (643)
+* Longest Substring Without Repeating Characters (3)
+* Max Consecutive Ones III (1004)
+* Minimum Size Subarray Sum (209)
+* Longest Repeating Character Replacement (424)
